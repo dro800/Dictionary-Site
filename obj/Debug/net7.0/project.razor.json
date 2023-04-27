@@ -18650,6 +18650,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/danny/vscprojects/Dictionary-Site/Views/Dictionary/Index.cshtml",
+      "TargetPath": "Views\\Dictionary\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/danny/vscprojects/Dictionary-Site/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -18665,6 +18670,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/danny/vscprojects/Dictionary-Site/Views/Dictionary/Details.cshtml",
+      "TargetPath": "Views\\Dictionary\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/danny/vscprojects/Dictionary-Site/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -18675,6 +18685,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/danny/vscprojects/Dictionary-Site/Views/Dictionary/Edit.cshtml",
+      "TargetPath": "Views\\Dictionary\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/danny/vscprojects/Dictionary-Site/Views/Dictionary/Delete.cshtml",
+      "TargetPath": "Views\\Dictionary\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/danny/vscprojects/Dictionary-Site/Areas/Identity/Pages/_ViewStart.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -18682,6 +18702,11 @@
     {
       "FilePath": "/home/danny/vscprojects/Dictionary-Site/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/danny/vscprojects/Dictionary-Site/Views/Dictionary/Create.cshtml",
+      "TargetPath": "Views\\Dictionary\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
