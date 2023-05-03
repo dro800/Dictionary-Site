@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/danny/vscprojects/Dictionary-Site/Dictionary-Site.csproj": {}
+    "/home/danny/CodeProjects/Dictionary-Site/Dictionary-Site.csproj": {}
   },
   "projects": {
-    "/home/danny/vscprojects/Dictionary-Site/Dictionary-Site.csproj": {
+    "/home/danny/CodeProjects/Dictionary-Site/Dictionary-Site.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/danny/vscprojects/Dictionary-Site/Dictionary-Site.csproj",
+        "projectUniqueName": "/home/danny/CodeProjects/Dictionary-Site/Dictionary-Site.csproj",
         "projectName": "Dictionary-Site",
-        "projectPath": "/home/danny/vscprojects/Dictionary-Site/Dictionary-Site.csproj",
+        "projectPath": "/home/danny/CodeProjects/Dictionary-Site/Dictionary-Site.csproj",
         "packagesPath": "/home/danny/.nuget/packages/",
-        "outputPath": "/home/danny/vscprojects/Dictionary-Site/obj/",
+        "outputPath": "/home/danny/CodeProjects/Dictionary-Site/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/danny/.nuget/NuGet/NuGet.Config"
