@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Dictionary_Site.Data;
 using Dictionary_Site.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Dictionary_Site.Controllers
 {
@@ -58,6 +59,8 @@ namespace Dictionary_Site.Controllers
         }
 
         // GET: Dictionary/Create
+
+        [Authorize]
         public IActionResult Create()
         {
             return View();
@@ -66,6 +69,7 @@ namespace Dictionary_Site.Controllers
         // POST: Dictionary/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Term,Definition")] Dictionary dictionary)
@@ -80,6 +84,7 @@ namespace Dictionary_Site.Controllers
         }
 
         // GET: Dictionary/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Dictionary == null)
@@ -98,6 +103,7 @@ namespace Dictionary_Site.Controllers
         // POST: Dictionary/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Term,Definition")] Dictionary dictionary)
@@ -131,6 +137,7 @@ namespace Dictionary_Site.Controllers
         }
 
         // GET: Dictionary/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Dictionary == null)
@@ -151,6 +158,7 @@ namespace Dictionary_Site.Controllers
         // POST: Dictionary/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Dictionary == null)
