@@ -18645,6 +18645,11 @@
   "RootNamespace": "Dictionary_Site",
   "Documents": [
     {
+      "FilePath": "/home/danny/CodeProjects/Dictionary-Site/Views/Dictionary/ShowSearchForm.cshtml",
+      "TargetPath": "Views\\Dictionary\\ShowSearchForm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/danny/CodeProjects/Dictionary-Site/Views/Dictionary/Create.cshtml",
       "TargetPath": "Views\\Dictionary\\Create.cshtml",
       "FileKind": "mvc"

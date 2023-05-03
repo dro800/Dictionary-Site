@@ -27,6 +27,18 @@ namespace Dictionary_Site.Controllers
                           Problem("Entity set 'ApplicationDbContext.Dictionary'  is null.");
         }
 
+        // GET: Dictionary/ShowSearchForm
+        public async Task<IActionResult> ShowSearchForm()
+        {
+              return View();
+        }
+
+        // Post: Dictionary/ShowSearchResults
+        public async Task<IActionResult> ShowSearchResults(String SearchWord)
+        {
+              return View("Index", await _context.Dictionary.Where(d => d.Term.Contains(SearchWord)).ToListAsync());
+        }
+
         // GET: Dictionary/Details/5
         public async Task<IActionResult> Details(int? id)
         {
