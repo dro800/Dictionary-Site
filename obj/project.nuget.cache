@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VrJNGHMIG4GPrb4ThfIwbgVG56RmNvKHRtxJWl8Ct5wTJZC+CoKmtm1qZc+d5tl/3EQV3FbcNUA9DGaQGt0UWA==",
+  "dgSpecHash": "Ezw+wVFDkmMcsPIuFwJ5D23kAPUowHAYQj6wsoIINg4Orqsew99JV8y1yXL8Ub4/bKbpmRfTyvTIuVfwLw7LAw==",
   "success": true,
-  "projectFilePath": "/home/danny/CodeProjects/Dictionary-Site/Dictionary-Site.csproj",
+  "projectFilePath": "/home/danny/vscprojects/Dictionary-Site/Dictionary-Site.csproj",
   "expectedPackageFiles": [
     "/home/danny/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/home/danny/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",

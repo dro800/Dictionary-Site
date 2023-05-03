@@ -1,7 +1,6 @@
 /home/danny/vscprojects/Dictionary-Site/bin/Debug/net7.0/appsettings.Development.json
 /home/danny/vscprojects/Dictionary-Site/bin/Debug/net7.0/appsettings.json
 /home/danny/vscprojects/Dictionary-Site/bin/Debug/net7.0/Dictionary-Site.staticwebassets.runtime.json
-/home/danny/vscprojects/Dictionary-Site/bin/Debug/net7.0/app.db
 /home/danny/vscprojects/Dictionary-Site/bin/Debug/net7.0/Dictionary-Site
 /home/danny/vscprojects/Dictionary-Site/bin/Debug/net7.0/Dictionary-Site.deps.json
 /home/danny/vscprojects/Dictionary-Site/bin/Debug/net7.0/Dictionary-Site.runtimeconfig.json
@@ -626,3 +625,4 @@
 /home/danny/CodeProjects/Dictionary-Site/obj/Debug/net7.0/Dictionary-Site.pdb
 /home/danny/CodeProjects/Dictionary-Site/obj/Debug/net7.0/Dictionary-Site.genruntimeconfig.cache
 /home/danny/CodeProjects/Dictionary-Site/obj/Debug/net7.0/ref/Dictionary-Site.dll
+/home/danny/vscprojects/Dictionary-Site/bin/Debug/net7.0/app.db
